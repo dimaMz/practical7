@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Портфоліо</title>
+    <link rel="icon" href="img/icons8-портфолио-50.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css./bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js./bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <!-- encabezado y menú -->
+        <header>
+            <h1 class="gradient-text">ДІМА</h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">На головну</a>
+                <a href="#sobremi" onclick="seleccionar()" >Про мене</a>
+                <a href="#curriculum" onclick="seleccionar()">Персональна інформація</a>
+                <a href="#porfolio" onclick="seleccionar()">Портфоліо</a>
+                <a href="#contacto" onclick="seleccionar()">Контакти</a>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- sección Inicio -->
+        <section id="inicio">
+            <div class="fila">
+                <div class="col">
+                    <p>Діма Мазур Віталійович</p>
+
+
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/photo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Sobre Mí -->
+        <section id="sobremi">
+            <div class="fila">
+                <div class="col info">
+                    <h3>Привіт</h2>
+                    <h2>Мене звати Діма</h2>
+                    <p>На цій сторінці портфоліо ви можете більше дізнатися про мене та мої інтереси. Наразі я навчаюсь у м.Хмельницький у вищому навчальному закладі ХНУ; Факультет інформаційних технологій, спеціальнісьть 123-Комп'ютерна індженерія та програмування</p>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/photo2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Curriculum -->
+        <section id="curriculum">
+            <h3>Персональна інформація</h3>
+            <div class="fila">
+                <div class="col">
+                    <p class="experiencia">Цікавлюсь</p>
+                    <h2><span class="txtEspecial">DevOps, OS, Linux, Game, Travel, Frontend, backend</span></h2>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>День народження</h4>
+                            <p>17/08/2005</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Телефон</h4>
+                            <p>+380 67 292 0936</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Адреса</h4>
+                            <p>М.Хмельницький</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Емейл</h4>
+                            <p>dimamazur343@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección porfolio -->
+        <section id="porfolio">
+            <h3>Портфоліо</h3>
+            <div class="fila">
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/1.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/3.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+
+                </div>
+                <div class="col">
+
+                    <div class="trabajo">
+                        <img src="img/8.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/5.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/6.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/7.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t9.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t10.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t11.jpg" alt="">
+                        <p class="desc"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección contacto -->
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-square-facebook gradient-text"></i></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter gradient-text"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram gradient-text"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram gradient-text"></i></a>
+
+            </div>
+
+        </section>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
